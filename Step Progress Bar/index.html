@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Step Progress Bar</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/2745e261bc.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div id="stepProgressBar">
+      <div class="step">
+        <p class="step-text">
+          <i class="fas fa-user"></i>
+          <div class="bullet">1</div>
+        </p>
+      </div>
+
+      <div class="step">
+        <p class="step-text">
+          <i class="fas fa-id-card"></i>
+          <div class="bullet">2</div>
+        </p>
+      </div>
+
+      <div class="step">
+        <p class="step-text">
+          <i class="fas fa-envelope"></i>
+          <div class="bullet">3</div>
+        </p>
+      </div>
+
+      <div class="step">
+        <p class="step-text">
+          <i class="fas fa-key"></i>
+          <div class="bullet">4</div>
+        </p>
+      </div>
+    </div>
+
+    <p id="content">Step Number 1</p>
+    <button id="prevButton">Previous</button>
+    <button id="nextButton">Next</button>
+    <button id="finishButton">Finish</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
